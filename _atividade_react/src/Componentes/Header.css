@@ -1,0 +1,51 @@
+* {
+  background-color: rgb(0, 0, 0);
+  
+}
+
+#principal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#titulo { 
+  font-family: Arial;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  line-height: 0.1;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(25, 189, 10);
+}
+
+#sobre-mim {
+  font-family: Arial;
+  font-size: 16px;
+  color: rgb(255, 253, 253);
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+p {
+  text-align: justify;
+}
+
+.imagens {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+img {
+  width: 160px;
+  height: auto;
+}
+
